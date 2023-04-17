@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.td{
+    border-radius: 5px;
+    background-color: #d8d4d4;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    padding: 40px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_task{
+    width: 70%;
+    height:40px;
+    margin-right:2%;
+    border:1px solid #525150;
+    border-radius: 4px;
+}
+.bt{
+    width:16%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #325dec;
+    border:1px solid #fff;
+    color:#fff;
+}
+
+.bt:hover{
+    background-color: #328ABF;
+}
+.tit{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.dvM{
+    display: flex;
+}
+.step{
+    display:flex;
+    width:80%;
+    justify-content: space-around;
+    margin:auto;
+}
+.st{
+    margin-top:30px;
+}
+.tks{
+   display: flex;
+   justify-content: center;
+   padding: 5px;
+}
+.tks h3{
+    font-size: 20px;
+}
+.step-item{
+    border:1px solid #fff;
+    border-radius: 5px; 
+    color:#fff;
+    font-size:17px;
+}
+.step-item.a{
+    background-color: #2889F1;
+}
+.step-item.b{
+    background-color: #53c40d;
+}
+.step-item.c{
+    background-color: #f11313;
+}
+.task_list{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.btmod{
+    width:26%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #051a5e;
+    border:1px solid #fff;
+    color:#fff;
+}
+.btmod:hover, .btdel:hover{
+    background-color: #a8cdf4;
+}
+.dvTask{
+    display: flex;
+    justify-content: space-around;
+}
+.btdel{
+    width:26%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #ec0f0f;
+    border:1px solid #fff;
+    color:#fff;
+}
+.sl{
+    width:26%;
+    height: 40px;
+    border-radius: 4px;
+    border:1px solid #fff;
+    
+}
+.dvTitle{
+    width: 50%;
+}
+.dvTask{
+    width:50%;
+}
+
+
+@media only screen and (max-width:800px){
+    .form{
+        display: block; 
+    }
+    
+    .input_task{
+       width:100%;
+       padding: 2%;
+       margin-bottom: 8px;
+    }
+    .bt{
+       width: 100%;
+    }
+    .dvM{
+        display:block;
+        /* justify-content: center; */
+        /* align-items: center; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .dvTitle{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .dvTask{
+        display: flex;
+        justify-content: space-around;
+        width:100%;
+    }
+    .sl,.btmod,.btdel{
+       width:30%;
+       font-size: 13px;
+    }
+    
+    
+}
